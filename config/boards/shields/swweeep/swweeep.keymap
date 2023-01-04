@@ -125,7 +125,7 @@
    &kp Q &kp W &kp F &kp P &kp B &kp J &kp L   &kp U     &kp Y   &kp SQT
    &kp A &kp R &kp S &kp T &kp G &kp M &kp N   &kp E     &kp I   &kp O    
    &kp Z &kp X &kp C &kp D &kp V &kp K &kp H   &kp COMMA &kp DOT &mo FUN  
-            &mo SYM &kp SPACE &lt NAV BSPC &mo NUM 
+            &sk LGUI &mo SYM &kp SPACE &lt NAV BSPC &mo NUM &sk LALT
                         >;
                 };
                 symbol_layer {
@@ -138,7 +138,7 @@
    &none    &kp BSLH  &kp PRCNT &kp DLLR  &none &none &kp CARET &kp LBKT &kp RBKT &none  
    &kp STAR &kp LPAR  &kp RPAR  &kp COLON &none &none &kp SEMI  &kp LBRC &kp RBRC &none   
    &none    &kp GRAVE &kp AT    &kp AMPS  &none &none &kp HASH  &kp LT   &kp GT   &none    
-                             &trans &kp SPACE &kp BSPC &kp ESC 
+                            &sk LGUI &trans &kp SPACE &kp BSPC &kp ESC &sk LALT
                         >;
                 };
                 number_layer {
@@ -151,7 +151,7 @@
    &none     &kp N4 &kp N5 &kp N6 &none &none &kp PIPE &kp MINUS &kp FSLH  &none 
    &kp DOT   &kp N1 &kp N2 &kp N3 &none &none &kp DQT  &kp UNDER &kp EQUAL &mo NAV 
    &kp TILDE &kp N7 &kp N8 &kp N9 &none &none &kp PLUS &kp QMARK  &kp EXCL &kp DEL
-                 &kp N0 &kp SPACE &kp BSPC  &trans 
+                &sk LGUI &kp N0 &kp SPACE &kp BSPC  &trans &sk LALT
                         >;
                 };
                 fun_layer {
@@ -164,7 +164,7 @@
    &none    &kp F4 &kp F5 &kp F6 &kp F10    &bt BT_SEL 0 &bt BT_SEL 1  &out OUT_USB &out OUT_BLE &bt BT_CLR   
    &kp CAPS &kp F1 &kp F2 &kp F3 &kp F11    &kp K_MUTE   &kp C_VOL_DN  &kp C_VOL_UP &kp C_BRI_DN &kp C_BRI_UP 
    &trans   &kp F7 &kp F8 &kp F9 &kp F12    &none        &none         &none        &none        &none      
-                         &trans &trans &trans &trans 
+                        &sk LGUI &trans &trans &trans &trans &sk LALT
                         >;
                 };
                 nav_layer {
@@ -177,7 +177,7 @@
    &none &none &none &none &none                       &none &none  &none  &none &none
    &none &none &none &none  &none                     &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &trans  
    &none &none &none &none &none                              &kp HOME &kp PG_DN &kp PG_UP &kp END   &none 
-                         &none &trans &trans &trans 
+                        &sk LGUI &none &trans &trans &trans &sk LALT
                         >;
                 };
         };
